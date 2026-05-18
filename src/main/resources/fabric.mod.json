@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "nefext",
+  "version": "${version}",
+  "name": "Not Enough Food - Extension",
+  "description": "A b1.7.3 mod for food lovers, extended!",
+  "authors": [ "Exiled Eye" ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/not-enough-food-extension",
+    "sources": "https://github.com/ExiledEye/Not-Enough-Food-Extension"
+  },
+  "license": "MIT",
+  "icon": "assets/nefext/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exiledeye.nefext.Main"
+    ],
+    "gcapi3": [
+      "com.exiledeye.nefext.config.ModConfig"
+    ],
+    "stationapi:event_bus": [
+      "com.exiledeye.nefext.listener.RecipeListener",
+      "com.exiledeye.nefext.listener.ItemListener",
+      "com.exiledeye.nefext.fix.CropTextureFix"
+    ],
+    "bhcreative:event_bus": [
+      "com.exiledeye.nefext.listener.CreativeListener"
+    ]
+  },
+  "mixins": [
+    "nefext.mixins.json"
+  ],
+  "depends": {
+    "not-enough-food": "1.0.1",
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.0.0-beta.7.3"
+  },
+  "suggests": {
+    "bhcreative": "*"
+  }
+}

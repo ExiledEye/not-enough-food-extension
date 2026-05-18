@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.exiledeye.nefext.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FoodStackMixin",
+    "AppleMixin",
+    "MobMeatMixin",
+    "SheepMeatMixin",
+    "SoupMixin",
+    "TallPlantMixin"
+  ],
+  "server": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
