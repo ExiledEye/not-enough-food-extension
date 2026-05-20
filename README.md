@@ -2,6 +2,8 @@
 **Not Enough Food - Extension** (nefext) is a Minecraft b1.7.3 mod built on Babric and StationAPI. It requires the base mod: [Not Enough Food](https://github.com/louiszn/not-enough-food) and extends it with new items, configurable drop rates, and tweaks to NEF's default behavior via [GlassConfigAPI](https://github.com/magistermaks/fabric-glass-config).  
 Everything is designed to be configurable, giving players total control over their experience.
 
+![BHCreative NEF tab](https://cdn.modrinth.com/data/QwaHynii/images/346993a52195fdc50d5d5f9848cc286ae1e7ed12.png)
+
 ## Requirements
 - [Not Enough Food](https://modrinth.com/mod/b1.7.3-not-enough-food) 1.0.1
 - [GlassConfigAPI](https://modrinth.com/mod/gcapi) 3.2.5+
